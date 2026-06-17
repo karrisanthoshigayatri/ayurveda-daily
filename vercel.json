@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "public": true,
+  "framework": "angular",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
