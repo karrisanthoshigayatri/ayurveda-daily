@@ -17,8 +17,9 @@ type RoutinePhases = Record<RoutinePhase, RoutineItem[]>;
 
 @Component({
   selector: 'app-routine',
-  templateUrl: './routine.html',
+  standalone: true,
   imports: [CommonModule],
+  templateUrl: './routine.html',
   styleUrls: ['./routine.css']
 })
 export class RoutineComponent implements OnInit {
